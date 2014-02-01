@@ -326,7 +326,7 @@ textarea {
 
 
 body {
-    background: url("../img/fondo.jpg") repeat-x scroll center top rgba(0, 0, 0, 0);
+    background: url("../img/fondocake.png") repeat-x scroll center top rgba(0, 0, 0, 0);
     height: 6500px;
 }
 
@@ -445,9 +445,10 @@ nav li a:hover {
     left: 0;
 }
 
-
 .ancla.con {
+    display: inline-block;
     left: 0;
+    text-indent: -99999px;
     top: 1650px;
 }
 
