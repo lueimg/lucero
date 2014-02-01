@@ -6,6 +6,27 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+
+@font-face
+{
+font-family: vijaya;
+src: url(fonts/vijaya.ttf);
+}
+@font-face
+{
+font-family: titling;
+src: url(fonts/big_noodle_titling.ttf);
+}
+
+@font-face
+{
+font-family: greatescape;
+src: url(fonts/TheGreatEscapeBold.ttf);
+}
+
+
+
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -355,7 +376,10 @@ nav li a:hover {
 
 
 .t2 {
-    line-height: 2.1em;
+    color: #104F5F;
+    font-family: vijaya;
+    font-size: 25px;
+    line-height: 1.2em;
     margin: 500px 553px 50px auto;
     position: relative;
     right: -46px;
@@ -363,27 +387,37 @@ nav li a:hover {
     width: 40%;
 }
 .t3 {
+    color: #104F5F;
+    font-family: vijaya;
+    font-size: 25px;
     left: 337px;
     margin: 400px auto;
     position: relative;
     top: -28px;
     width: 40%;
-    line-height: 2.1em;
+   line-height: 1.2em;
 }
 
 .t4 {
+    color: #104F5F;
+    font-family: vijaya;
+    font-size: 25px;
     left: 111px;
     position: relative;
     top: -100px;
     width: 38%;
-    line-height: 2.1em;
+    line-height: 1.2em;
 }
 
 .t5 {
+    color: #104F5F;
+    font-family: vijaya;
+    font-size: 25px;
     left: 641px;
     position: relative;
     top: 270px;
     width: 40%;
+    line-height: 1.2em;
 }
 
 .ancla{
@@ -451,11 +485,23 @@ li.slide {
 }
 
 
+
 .inter {
+    background: url("../img/slidebullet.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    color: #868A8A;
+    font-family: titling;
+    font-size: 20px;
+    padding-left: 20px;
     text-align: left;
-     background: url("../img/slidebullet.png") no-repeat scroll left top rgba(0, 0, 0, 0);
-     padding-left: 20px;
 }
+
+.inter span{
+    font-family: greatescape;
+    color: #868a8a;
+    font-size: 15px;
+    display: block;
+}
+
 .bjqs li {
     list-style: none;
 
