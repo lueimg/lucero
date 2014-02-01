@@ -24,7 +24,11 @@ font-family: greatescape;
 src: url(fonts/TheGreatEscapeBold.ttf);
 }
 
-
+@font-face
+{
+font-family: lanenar;
+src: url(fonts/lanenar.ttf);
+}
 
 
 /* ==========================================================================
@@ -336,11 +340,13 @@ nav li {
     display: inline-block;
     padding: 10px 25px;
 }
+
 nav li a {
-    color: #555555;
+    color: #345983;
     text-decoration: none;
     text-transform: uppercase;
 }
+
 nav {
     background: url("../img/fondo-menu.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
     height: 100px;
@@ -352,7 +358,7 @@ nav {
 }
 
 nav li a:hover {
-    color: #345983;
+    color:#CD6D69;
     text-decoration: underline;
 }
 .logo {
@@ -555,11 +561,50 @@ li.slide {
 }
 
 .sec.fran {
-    width: 30%;
-    position: relative;
-    top: 1550px;
-    left: 260px;
+    color: #FFFFFF;
     font-family: arial;
-    color: #fff;
     font-size: 18px;
+    left: 260px;
+    position: relative;
+    top: 1522px;
+    width: 30%;
+}
+
+
+
+.contact {
+    position: relative;
+    top: 2114px;
+}
+
+.contact.part1 {
+    right: 338px;
+    top: 2125px;
+}
+.contact.part2 {
+    right: 35px;
+    top: 2045px;
+}
+.contact.part3 {
+    left: 285px;
+    top: 1926px;
+}
+
+
+
+.contact label {
+    color: #FFFFFF;
+    font-family: lanenar;
+    font-size: 25px;
+}
+
+.contact .text {
+    font-family: titling;
+}
+
+
+.contact .text {
+    color: #5C5758;
+    font-family: titling;
+    font-size: 30px;
 }
