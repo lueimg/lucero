@@ -324,8 +324,9 @@ textarea {
     }
 }
 
-body{
-    background: url("../img/fondo.jpg") repeat-x  0 0 transparent;
+
+body {
+    background: url("../img/fondo.jpg") repeat-x scroll center top rgba(0, 0, 0, 0);
     height: 6500px;
 }
 
@@ -382,10 +383,11 @@ nav li a:hover {
     line-height: 1.2em;
     margin: 500px 553px 50px auto;
     position: relative;
-    right: -46px;
+    right: 20px;
     top: 67px;
     width: 40%;
 }
+
 .t3 {
     color: #104F5F;
     font-family: vijaya;
@@ -403,10 +405,10 @@ nav li a:hover {
     font-family: vijaya;
     font-size: 25px;
     left: 111px;
-    position: relative;
-    top: -100px;
-    width: 38%;
     line-height: 1.2em;
+    position: relative;
+    top: -50px;
+    width: 38%;
 }
 
 .t5 {
@@ -414,10 +416,10 @@ nav li a:hover {
     font-family: vijaya;
     font-size: 25px;
     left: 641px;
-    position: relative;
-    top: 270px;
-    width: 40%;
     line-height: 1.2em;
+    position: relative;
+    top: 343px;
+    width: 40%;
 }
 
 .ancla{
@@ -437,6 +439,17 @@ nav li a:hover {
     top: -56px;
 }
 
+
+.ancla.fran {
+    bottom: 500px;
+    left: 0;
+}
+
+
+.ancla.con {
+    left: 0;
+    top: 1650px;
+}
 
 li.slide {
     display: inline-block;
@@ -490,7 +503,7 @@ li.slide {
     background: url("../img/slidebullet.png") no-repeat scroll left top rgba(0, 0, 0, 0);
     color: #868A8A;
     font-family: titling;
-    font-size: 20px;
+    font-size: 24px;
     padding-left: 20px;
     text-align: left;
 }
@@ -531,11 +544,21 @@ li.slide {
 }
 
 .bxslider li{
-    height: 250px;
+    height: 320px;
     margin: 10px auto;
 }
 
 .tab.active{
     display: inline-block !important;
-    width: 60%;
+    width: 50%;
+}
+
+.sec.fran {
+    width: 30%;
+    position: relative;
+    top: 1550px;
+    left: 260px;
+    font-family: arial;
+    color: #fff;
+    font-size: 18px;
 }
